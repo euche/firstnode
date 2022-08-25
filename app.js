@@ -80,7 +80,7 @@ app.use((req,res,next)=>{
     next(error);
 
 
-})
+});
 
 //creating and handling errors2
 app.use((error,req,res,next)=>{
